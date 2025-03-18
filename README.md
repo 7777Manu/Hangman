@@ -1,1 +1,1 @@
-# Hangman
+Hangman Battle este o versiune competitivă a clasicului joc Spânzurătoarea, unde doi jucători se duelează în ghicirea unui cuvânt dintr-o tematică aleasă (ex: filme, sport, mitologie). Fiecare jucător selectează un cuvânt pentru adversar, iar rundele se desfășoară pe ture. Jocul include abilități speciale (ex: blocare litere, indicii forțate) și un sistem de punctaj, oferind o experiență dinamică și strategică. Câștigă primul care ghicește corect sau cel care face mai puține greșeli.
