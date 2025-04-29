@@ -1,3 +1,4 @@
+//acesta ruleaaza doar in consola
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
