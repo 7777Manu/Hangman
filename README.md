@@ -40,9 +40,4 @@ ncurses.h – Pentru a crea interfața interactivă în terminal.
 -Highlight pe litera introdusă: Cursorul poate evidenția ultima literă introdusă. 
 -Efect de „ecran stricat”: Cu cât sunt mai multe greșeli, cu atât apar mai multe caractere haotice pe ecran.
 
-4.Extensii și îmbunătățiri viitoare Mod multiplayer 
-– Un jucător introduce un cuvânt, iar altul îl ghicește. 
--Sistem de dificultate – Moduri ușor, mediu și greu (ex: mai puține greșeli permise la dificultate mare).
--Leaderboard – Se poate salva scorul cel mai mare.
-
 Acest joc oferă o experiență captivantă printr-o tematică inovatoare, utilizând ncurses pentru o interfață mai atractivă în terminal. Implementarea este simplă, dar permite extinderi ulterioare pentru a crește complexitatea și interactivitatea. „Virus vs. Antivirus” nu este doar un simplu Hangman, ci un concept modernizat care combină educația cu divertismentul! Let's fight the virus! 💾🚀
