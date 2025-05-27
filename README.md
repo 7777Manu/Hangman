@@ -3,13 +3,11 @@ Virus vs. Antivirus – Hangman IT Edition
 Jocul „Virus vs. Antivirus” este o reinterpretare interactivă a jocului Hangman, cu o tematică IT. În locul unui om spânzurat, jucătorul intră în rolul unui antivirus care trebuie să elimine un virus informatic prin ghicirea unui cuvânt secret. Fiecare greșeală duce la creșterea infectării sistemului, iar la eșec total, sistemul „se prăbușește” într-o simulare de sistem infectat (BSOD). Jocul este dezvoltat în limbajul C folosind biblioteca ncurses pentru o interfață vizuală interactivă în terminal.
 
 1.  Funcționalități principale 
--Jucătorul trebuie să ghicească un cuvânt secret (preluat din fișierele de cuvinte pentru diferite nivele de dificultate: ușor, mediu, greu) prin alegerea literelor corecte, evitând astfel „infectarea” sistemului de către virus.
-Jocul permite până la 6 greșeli (MAX_TRIES).
--Fiecare literă ghicită corect este afișată pe ecran;
-- Literele greșite cresc nivelul de infecție.
--Pentru fiecare greșeală, se afișează un „nivel de virus” în stil progresiv, de la o amenințare minoră până la „SYSTEM FAILURE”.
--Dacă jucătorul face 6 greșeli, sistemul „se prăbușește”, afișând un ecran stil Blue Screen of Death (BSOD) cu mesaje haioase și dramatice.
--Dacă jucătorul ghicește cuvântul complet înainte de a atinge 6 greșeli, apare un mesaj de victorie cu un efect grafic de „explozie” și confirmarea că virusul a fost eliminat.
+-Ghicirea cuvintelor IT: Cuvintele sunt extrase aleator din fișiere dedicate pe nivele de dificultate (ușor, mediu, greu).
+-6 încercări maxime: Jucătorul are până la 6 greșeli înainte ca sistemul să fie infectat complet.
+-Niveluri de infecție: Pentru fiecare greșeală, virusul crește în dimensiune și amenințare, ilustrat prin animații ASCII.
+-Ecran Blue Screen of Death (BSOD): Dacă jucătorul eșuează, apare o simulare stilizată a BSOD-ului cu mesaje amuzante.
+-Mesaj de victorie: Dacă jucătorul ghicește cuvântul, apare o animație de „explozie” și confirmarea eliminării virusului.
 
 2.Implementare tehnică
 
