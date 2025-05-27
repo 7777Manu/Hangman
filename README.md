@@ -1,4 +1,4 @@
-Titlu proiect: Virus vs. Antivirus - Hangman IT Edition
+Virus vs. Antivirus – Hangman IT Edition
 
 Jocul „Virus vs. Antivirus” este o reinterpretare interactivă a jocului Hangman, cu o tematică IT. În locul unui om spânzurat, jucătorul intră în rolul unui antivirus care trebuie să elimine un virus informatic prin ghicirea unui cuvânt secret. Fiecare greșeală duce la creșterea infectării sistemului, iar la eșec total, sistemul „se prăbușește” într-o simulare de sistem infectat (BSOD). Jocul este dezvoltat în limbajul C folosind biblioteca ncurses pentru o interfață vizuală interactivă în terminal.
 
